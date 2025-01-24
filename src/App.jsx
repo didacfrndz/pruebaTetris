@@ -7,8 +7,16 @@ function App() {
   return (
     <>
       <h1>Hola</h1>
-      
-     
+      <nav>
+        <ul>
+          <li>
+            <button id='partidas'>Partidas</button>
+          </li>
+        </ul>
+      </nav>
+      <div className='vistas'>
+
+      </div>
     </>
   )
 }
