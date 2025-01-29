@@ -1,11 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { TablaPartidas } from './vistas/vistapartidas.jsx';
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { VistaPartidas } from './vistas/vistapartidas.jsx';
 
-// Otros componentes, si los tienes
-// import { Inicio } from './vistas/Inicio.jsx';
-// import { Perfil } from './vistas/Perfil.jsx';
+
+
 
 function App() {
   return (
@@ -29,7 +28,7 @@ function App() {
         {/* Define las rutas y sus componentes */}
         <Routes>
           <Route path="/" element={<h2>Bienvenido a la vista de inicio</h2>} />
-          <Route path="/partidas" element={<TablaPartidas />} />
+          <Route path="/partidas" element={<VistaPartidas />} />
           <Route path="/perfil" element={<h2>Vista de Perfil</h2>} />
         </Routes>
       </div>
