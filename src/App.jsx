@@ -33,6 +33,8 @@ function App() {
         </Routes>
       </div>
     </Router>
+
+    //añadir aqui la vista de inicio con las instrucciones
   );
 }
 

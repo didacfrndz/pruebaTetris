@@ -55,7 +55,7 @@ export function TablaPartidas() {
 
   const agregarPartida = () => {
     const nuevaPartida = {
-      nick: `Jugador${partidas.length + 1}`,
+      nick: `Player${partidas.length + 1}`,
       puntos: Math.floor(Math.random() * 2000), // Puntos aleatorios
       fecha: new Date().toISOString().split("T")[0], // Fecha actual
       imagen: "https://www.example.com/imagen.jpg", // Imagen por defecto
