@@ -3,6 +3,8 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { VistaPartidas } from './vistas/vistapartidas.jsx';
 import {VistaInicio} from './vistas/vistainicio.jsx';
+import { VistaJuego } from './vistas/vistajuego.jsx';
+import { VistaRanking } from './vistas/vistaranking.jsx';
 
 
 
@@ -19,7 +21,10 @@ function App() {
             <Link to="/partidas">Partidas</Link> {/* Redirige a la vista de Partidas */}
           </li>
           <li>
-            <Link to="/perfil">Perfil</Link> {/* Redirige a la vista de Perfil */}
+            <Link to="/juego">Juego</Link> {/* Redirige a la vista de Perfil */}
+          </li>
+          <li>
+            <Link to="/ranking">Ranking</Link> {/* Redirige a la vista de Perfil */}
           </li>
         </ul>
       </nav>
@@ -29,7 +34,8 @@ function App() {
         <Routes>
           <Route path="/" element={<VistaInicio/>} />
           <Route path="/partidas" element={<VistaPartidas />} />
-          <Route path="/perfil" element={<h2>Vista de Perfil</h2>} />
+          <Route path="/juego" element={<VistaJuego/>} />
+          <Route path="/ranking" element={<VistaRanking/>} />
         </Routes>
       </div>
     </Router>
