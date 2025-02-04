@@ -1,6 +1,7 @@
+import { defineConfig } from "vite"
 
 
-modelos = {
+const modelos = {
     matriz: [
         [1,0,0,0,0,0,0,0,0,0,0,1],
         [1,0,0,0,0,0,0,0,0,0,0,1],
@@ -52,3 +53,4 @@ modelos = {
     ]
 
 }
+export default modelos;
