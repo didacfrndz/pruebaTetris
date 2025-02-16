@@ -1,4 +1,5 @@
 import React from "react";
+import { defineConfig } from "vite";
 
 
 export function VistaRanking(){
@@ -8,3 +9,4 @@ export function VistaRanking(){
         </div>
     );
 }
+export default VistaRanking;

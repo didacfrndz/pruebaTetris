@@ -9,7 +9,9 @@ export function VistaInicio(){
                 <h2 className="mt-5">Instrucciones</h2>
             </header>
             <main>
-                /* añadir aqui las instrucciones*/
+                <h2>Instrucciones:</h2>
+                <p>Puedes mover las piezas usando las flechas izquierda y derecha</p>
+                <p>Con la flecha hacia abajo puedes girar la pieza</p>
             </main>
         </div>
     );
